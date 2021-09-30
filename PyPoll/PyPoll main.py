@@ -3,7 +3,7 @@ import csv
 from os import name
 
 # path of the input file
-PyPoll_input_file=r"C:\Users\JINK\Desktop\git\python-challenge\PyPoll\Resources\election_data.csv"
+PyPoll_input_file=r"PyPoll\Resources\election_data.csv"
 
 # create an empty list for the list of candidates
 candidates_list=[]
