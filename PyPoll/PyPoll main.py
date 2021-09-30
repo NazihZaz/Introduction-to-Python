@@ -46,7 +46,7 @@ final_list={candidates_list[i]: candidates_votes[i] for i in range(len(candidate
 winner=max(final_list, key=final_list.get)
 
 # path of the output file
-PyPoll_output_file=r"C:\Users\JINK\Desktop\git\python-challenge\PyPoll\Analysis\PyPoll Analysis.txt"
+PyPoll_output_file=r"PyPoll\Analysis\PyPoll Analysis.txt"
 
 # open the output file in write mode
 with open(PyPoll_output_file,'w') as analysis:
@@ -56,8 +56,8 @@ with open(PyPoll_output_file,'w') as analysis:
     analysis.write("\n----------------------------")
     analysis.write(f"\nTotal Votes: {total_votes_cast}")
     analysis.write("\n----------------------------")
-    for y in range(len(candidates_list)):
-        analysis.write(f"\n{candidates_list[y]}: {round(percentages_list[y],3)}% ({candidates_votes[y]})")
+    for candidate, percentage, vote in zip(candidates_list, percentages_list, candidates_votes):
+        analysis.write(f"\n{candidate}: {percentage:.3f}% ({vote})")
     analysis.write("\n----------------------------")
     analysis.write(f"\nWinner: {winner}")
     analysis.write("\n----------------------------")
