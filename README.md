@@ -27,11 +27,11 @@ Pypoll Python script analyses of a set of poll data using a called election_data
 - The total number of votes each candidate won.
 - The winner of the election based on popular vote.
 
-Here is the link to the PyBank.py file:
+Here is the link to the PyPoll.py file:
 ![PyPoll Python Script](https://github.com/NazihZaz/python-challenge/blob/main/PyPoll/PyPoll%20main.py)
 
 Here is the link to the Analysis.txt file:
 ![PyPoll Analysis](https://github.com/NazihZaz/python-challenge/blob/main/PyPoll/Analysis/PyPoll%20Analysis.txt)
 
-Here is the link to the budget_data.csv file:
+Here is the link to the election_data.csv file:
 ![election_data.csv](https://github.com/NazihZaz/python-challenge/blob/main/PyPoll/Resources/election_data.csv)
