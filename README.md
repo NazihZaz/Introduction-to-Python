@@ -11,9 +11,11 @@ PyBank Python script analyses the financial records of a company using a set of 
 - The greatest decrease in profits (date and amount) over the entire period.
 
 Here is the link to the PyBank.py file:
-![PyBank Python Script](https://github.com/NazihZaz/python-challenge/blob/main/PyBank/main.py)
+![PyBank Python Script](https://github.com/NazihZaz/python-challenge/blob/main/PyBank/PyBank%20main.py)
+
 Here is the link to the Analysis.txt file:
 ![PyBank Analysis](https://github.com/NazihZaz/python-challenge/blob/main/PyBank/Analysis/PyBank%20Analysis.txt)
+
 Here is the link to the budget_data.csv file:
 ![budget_data.csv](https://github.com/NazihZaz/python-challenge/blob/main/PyBank/Resources/budget_data.csv)
 
@@ -26,8 +28,10 @@ Pypoll Python script analyses of a set of poll data using a called election_data
 - The winner of the election based on popular vote.
 
 Here is the link to the PyBank.py file:
-![PyPoll Python Script](https://github.com/NazihZaz/python-challenge/blob/main/PyPoll/main.py)
+![PyPoll Python Script](https://github.com/NazihZaz/python-challenge/blob/main/PyPoll/PyPoll%20main.py)
+
 Here is the link to the Analysis.txt file:
 ![PyPoll Analysis](https://github.com/NazihZaz/python-challenge/blob/main/PyPoll/Analysis/PyPoll%20Analysis.txt)
+
 Here is the link to the budget_data.csv file:
 ![election_data.csv](https://github.com/NazihZaz/python-challenge/blob/main/PyPoll/Resources/election_data.csv)
