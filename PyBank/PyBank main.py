@@ -14,6 +14,7 @@ profits_losses=[]
 # open the input file in a read mode
 with open(PyBank_input_file, 'r') as csvfile:
     csvreader=csv.reader(csvfile,delimiter=',')
+
     # skip the header
     next(csvreader)
 
@@ -22,6 +23,7 @@ with open(PyBank_input_file, 'r') as csvfile:
 
         # append the list of months
         number_months.append(row[0])
+        
         # append the list of profits_losses
         profits_losses.append(int(row[1]))
 

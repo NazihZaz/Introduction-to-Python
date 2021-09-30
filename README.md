@@ -1,6 +1,6 @@
 # python-challenge
 
-This repository contains my solution for the Python Homwork Assignment: Py Me Up, Charlie. I created 2 Python script PyBank and PyPoll.
+This repository contains my solution for the Python Homwork Assignment: Py Me Up, Charlie. I created 2 Python scripts: PyBank and PyPoll.
 
 PyBank Python script analyses the financial records of a company using a set of financial data called budget_data.csv, calculates the elements listed below and print them into the Analysis.txt file. The dataset is composed of two columns: Date and Profit/Losses. 
 
@@ -19,7 +19,7 @@ Here is the link to the Analysis.txt file:
 Here is the link to the budget_data.csv file:
 ![budget_data.csv](https://github.com/NazihZaz/python-challenge/blob/main/PyBank/Resources/budget_data.csv)
 
-Pypoll Python script analyses of a set of poll data using a called election_data.csv, calculates the elements listed below and print them into the Analysis.txt file. The dataset is composed of two columns: Date and Profit/Losses. 
+Pypoll Python script analyses of a set of poll data called election_data.csv, calculates the elements listed below and print them into the Analysis.txt file. The dataset is composed of three columns: Voter ID, County, and Candidate. 
 
 - The total number of votes cast.
 - A complete list of candidates who received votes.
