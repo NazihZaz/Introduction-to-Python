@@ -34,7 +34,8 @@ with open(PyPoll_input_file, 'r') as csvfile:
         # detect the candidates receiving votes and append the list
         if row[2] not in candidates_list:
             candidates_list.append(row[2])
-         
+
+    # find the number of votes and their percentages for each candidate
     for x in candidates_list:
         candidates_votes.append(votes_list.count(x))
         percentages_list.append(votes_list.count(x)/total_votes_cast*100)
